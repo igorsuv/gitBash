@@ -30,7 +30,7 @@ http://162.55.220.72:5005/terminal-hw-request ------------ curl http://162.55.22
 ----Откриваем редактор -------  nano myscript.sh
 ----Сам скрипт ---------------- 
 
-#!bin/buch
+#!bin/bash
 
 echo "понеслась"
 cd hw_1
@@ -43,6 +43,6 @@ mv test_2.txt tom4/test_2.txt |mv test_3.txt tom5/test_3.txt
 
 echo "готово"
 
-----Запускаем скрипт ------- bush myscript.sh 
+----Запускаем скрипт ------- bash myscript.sh 
 
 
